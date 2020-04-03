@@ -1,0 +1,40 @@
+
+.about-content .about-item
+{
+    width:30%;
+    float:left;
+    text-align:center;
+    border: 1px solid #f1f1f1;
+    padding: 30px 15px;
+}
+
+.about-item:hover .about-item-title
+{
+    color:var(--witheColor);
+}
+.about-item.mg-item{
+    margin:0 5%;
+}
+.about-content .about-item .icon
+{
+    font-size:30px;
+    color:var(--mainColor);
+}
+
+.about-content .about-item .about-item-title
+{
+    text-transform:capitalize;
+    font-weight:bold;
+    transition: color .5s;
+}
+.about-content .about-item .about-item-desc
+{
+    color:var(--grayColor);
+    line-height:1.6;
+}
+.about-content .about-item .about-item-link
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--mainColor);
+}
